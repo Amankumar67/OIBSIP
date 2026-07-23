@@ -1,87 +1,144 @@
-BMI Calculator
-A simple Python-based BMI (Body Mass Index) Calculator developed as part of my Python Programming Internship at Oasis Infobyte. This project allows users to calculate their BMI using height and weight inputs and classify the result into standard health categories.
+# BMI Calculator
 
-📌 Project Overview
-The BMI Calculator is a command-line application that takes a user's weight and height as input, calculates the BMI value, validates the entered data, and displays the corresponding health category.
+## 📖 Overview
 
-This project was built to strengthen my understanding of:
-Python fundamentals
-User input handling
-Conditional statements
-Functions
-Error handling and input validation
-Mathematical calculations
+The **BMI Calculator** is a beginner-friendly Python command-line application developed during my **Python Programming Internship at Oasis Infobyte**.
 
-🚀 Features
-✔ User input for weight (kg) and height (m)
-✔ BMI calculation using the standard formula
-✔ Classification into health categories:
-Underweight (< 18.5)
-Normal Weight (18.5 – 24.9)
-Overweight (25 – 29.9)
-Obese (≥ 30)
-✔ Result displayed up to two decimal places
-✔ Input validation for:
-Non-numeric values
-Negative values
-Invalid inputs
+This application calculates a user's **Body Mass Index (BMI)** using their height and weight and classifies the result into standard health categories. It also validates user input to ensure accurate calculations.
 
-🛠️ Tech Stack
-Language: Python
-Concepts Used:
-Variables
-Data Types
-Arithmetic Operators
-Conditional Statements (if-elif-else)
-Functions
-Exception Handling (try-except)
+---
 
-📂 Project Structure
-Plain text
+## 🎯 Project Objective
+
+The objective of this project is to understand the fundamentals of Python by implementing a real-world application using user input, arithmetic operations, conditional statements, and input validation.
+
+---
+
+## ✨ Features
+
+- Calculate Body Mass Index (BMI)
+- Accept user input for weight (kg) and height (m)
+- Display BMI up to two decimal places
+- Classify BMI into health categories:
+  - Underweight
+  - Normal Weight
+  - Overweight
+  - Obese
+- Validate invalid, negative, and non-numeric inputs
+- Beginner-friendly command-line interface
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3
+- Basic Arithmetic
+
+---
+
+## 📂 Project Structure
+
+```
 BMI-Calculator/
-│
-├── bmi_calculator.py
-├── README.md
+│── bmi_calculator.py
+│── README.md
+```
 
-📐 BMI Formula
-Plain text
+---
+
+## 📐 BMI Formula
+
+```
 BMI = Weight (kg) / Height² (m²)
+```
 
+---
 
-▶️ How to Run
-Clone the repository:
-Bash
+## 🏥 BMI Categories
+
+| BMI Range | Category |
+|-----------|----------|
+| Less than 18.5 | Underweight |
+| 18.5 – 24.9 | Normal Weight |
+| 25.0 – 29.9 | Overweight |
+| 30.0 and above | Obese |
+
+---
+
+## ▶️ How to Run
+
+### Clone the repository
+
+```bash
 git clone https://github.com/your-username/BMI-Calculator.git
+```
 
-Navigate to the project folder:
-Bash
+### Navigate to the project folder
+
+```bash
 cd BMI-Calculator
+```
 
-Run the program:
-Bash
+### Run the program
+
+```bash
 python bmi_calculator.py
+```
 
-💻 Sample Output
-Plain text
-Enter your weight (kg): 65
-Enter your height (m): 1.70
+---
 
-Your BMI is: 22.49
+## 💻 Sample Output
+
+```
+Enter your weight (kg): 68
+Enter your height (m): 1.72
+
+Your BMI is: 22.99
 Category: Normal Weight
+```
 
-🎯 Learning Outcomes
-Through this project, I gained practical experience in:
-Writing clean and structured Python code
-Handling user inputs efficiently
-Implementing validation techniques
-Applying conditional logic for real-world problems
-Building beginner-level command-line applications
+---
+
+## 📚 Concepts Used
+
+- Variables
+- Data Types
+- User Input
+- Arithmetic Operators
+- Conditional Statements
+- Functions
+- Exception Handling
+- Input Validation
+
+---
+
+## 🎓 Internship Details
+
+- **Internship:** Python Programming
+- **Organization:** Oasis Infobyte
+- **Project:** BMI Calculator
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I improved my understanding of:
+
+- Python programming fundamentals
+- Writing clean and readable code
+- User input handling
+- Decision-making using conditional statements
+- Error handling with input validation
+- Developing beginner-level command-line applications
+
+---
+
+## 👩‍💻 Author
+
+**Aman Kumar**
 
 
-🏢 Internship Details
-Organization: Oasis Infobyte
-Internship Domain: Python Programming
-Project Title: BMI Calculator
 
-👩‍💻 Author
-Aman Kumar
+---
+
+⭐ If you found this project helpful, feel free to star this repository.
