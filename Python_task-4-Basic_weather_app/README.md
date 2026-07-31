@@ -36,10 +36,7 @@ A simple Python GUI application that displays real-time weather information for 
 
 ```
 Basic_Weather_App/
-│── .venv/
 │── weather_app.py
-│── requirements.txt
-│── .env
 └── README.md
 ```
 
